@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+}
+.content {
+  flex: 2 1 70%;
+  padding: 0 20px 20px;
+}
+.chat {
+  flex: 1 2 30%;
+  padding: 20px;
+  background: #252a42;
+  max-height: calc(100vh - 106px);
+}

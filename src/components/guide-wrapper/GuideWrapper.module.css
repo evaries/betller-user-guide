@@ -1,0 +1,28 @@
+.popover {
+  background: rgb(29, 37, 57);
+  color: #fff;
+  min-width: 350px;
+}
+.active {
+  z-index: 101;
+  position: relative;
+  background: rgb(29, 37, 57);
+  transition: ease-in-out 0.5s;
+  transform: scale(1.02);
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.prevButton {
+  margin-right: 5px;
+  min-width: 80px;
+}
+.nextButton {
+  min-width: 80px;
+}
+.skipButton {
+  margin-right: 10px;
+  min-width: 80px;
+}

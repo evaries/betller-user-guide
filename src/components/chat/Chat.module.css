@@ -1,0 +1,10 @@
+.container {
+  background: #252a42;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+.messages {
+  overflow: auto;
+}

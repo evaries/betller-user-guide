@@ -1,0 +1,13 @@
+.backdrop {
+  display: none;
+  background-color: rgba(29, 30, 34, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+.active {
+  display: block;
+}

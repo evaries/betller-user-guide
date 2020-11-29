@@ -1,0 +1,22 @@
+.container {
+  background: #2e3451;
+  padding: 5px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.userInfo {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 5px;
+}
+.text {
+  color: white;
+  margin: 5px;
+  font-size: 14px;
+}
+.avatar {
+  margin-right: 5px;
+}
